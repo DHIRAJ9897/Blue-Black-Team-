@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <!-- Add this in <head> section -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Back Team</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e0f7fa;
+      text-align: center;
+    }
+
+    header {
+      background: #007bb5;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .logo-title {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      height: 50px;
+      margin-right: 15px;
+    }
+
+    .team-name {
+      font-size: 24px;
+      font-weight: bold;
+      color: #000000;
+      transition: color 0.3s ease;
+    }
+
+    .logo-title:hover .team-name {
+      color: white;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: black;
+      background-color: white;
+      border: 2px solid black;
+      padding: 8px 15px;
+      margin: 0 5px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h1, h2 {
+      color: #007bb5;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #007bb5;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background: #030303;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 15px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    .team-img {
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    .project-img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #007bb5;
+      color: white;
+      padding: 20px 0;
+    }
+
+    .social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: black;
+}
+
+  </style>
+  <!-- Font Awesome for social icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <div class="logo-title">
+      <img src="Logo.png" alt="Logo" class="logo">
+      <span class="team-name">Blue Black Team</span>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#team">Team</a>
+      <a href="#mission">Mission</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container" id="hero">
+    <h2>Welcome to Blue Back Team</h2>
+    <p>At Blue Black Team, we are a group of passionate tech enthusiasts dedicated to providing top-tier services in Cybersecurity, UI/UX Design, and Full Stack Development. Our mission is to empower businesses and individuals with cutting-edge technology, ensuring security, innovation, and seamless digital experiences.
+
+      🚀 Our Expertise:
+      🔹 Cybersecurity & Ethical Hacking
+      We help businesses protect their digital assets with penetration testing, vulnerability assessments, and risk management. Our ethical hacking techniques ensure that your systems are secure from cyber threats.
+      
+      🎨 UI/UX Design & Graphic Designing
+      A great design speaks louder than words. Our UI/UX experts create visually stunning, user-friendly, and interactive designs, enhancing user engagement and brand identity.
+      
+      💻 Full Stack Development
+      We develop powerful and scalable web applications with expertise in front-end and back-end technologies. From designing to deployment, we ensure a seamless digital transformation.
+      
+      🌟 Join us and be part of an innovative tech journey!We collaborate to create something new and unique.</p>
+    <a href="#about" class="btn">Learn More</a>
+  </div>
+
+  <div class="container" id="about">
+    <h2>About Us</h2>
+    <p> Blue Black Team
+      At Blue Black Team, we are a dynamic group of tech professionals driven by a passion for innovation and excellence. Our mission is to deliver high-quality digital solutions in Cybersecurity, UI/UX Design, and Full Stack Development.
+      
+      We believe in teamwork, creativity, and problem-solving, ensuring that every project we undertake is a step toward technological advancement. Whether it’s securing networks, designing intuitive user interfaces, or building full-scale applications, we strive for perfection and impact.
+      
+      With a strong foundation in ethical hacking, user experience, and software development, we are committed to empowering businesses and individuals in the ever-evolving digital landscape.
+      
+      🚀 Join us on our journey to redefine technology and create a safer, smarter future!We are a team dedicated to innovation, teamwork, and success.</p>
+  </div>
+
+  <div class="container" id="projects">
+    <h2>Our Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="Project 1.jpg" alt="Cyber Security" class="project-img">
+        <h3>Cyber Security & Ethical Hacking</h3>
+      </div>
+      <div class="card">
+        <img src="Project 2.jpg" alt="Project 2" class="project-img">
+        <h3>UI/UX Designer & Graphic Designer</h3>
+      </div>
+      <div class="card">
+        <img src="Project 3.jpg" alt="Project 3" class="project-img">
+        <h3>Full Stack Developer</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="team">
+    <h2>Meet Our Team</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="Project 1.jpg" alt="Member 1" class="team-img">
+        <h3>Dhiraj Bhavsar</h3>
+      </div>
+      <div class="card">
+        <img src="Project 1.jpg" alt="Member 2" class="team-img">
+        <h3>Harsha Bhavsar</h3>
+      </div>
+      <div class="card">
+        <img src="Project 1.jpg" alt="Member 3" class="team-img">
+        <h3>Rahul Bhoi</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="mission">
+    <h2>Our Mission</h2>
+    <p>At Blue Black Team, our mission is to drive innovation, enhance digital security, and create seamless user experiences through cutting-edge technology.
+
+      🔹 Securing the Digital World – We are committed to strengthening cybersecurity by identifying vulnerabilities, preventing cyber threats, and ensuring digital safety.
+      
+      🔹 Building Intuitive Designs – Our goal is to craft visually engaging and user-friendly interfaces that elevate user experience and brand identity.
+      
+      🔹 Developing Future-Ready Solutions – With expertise in full-stack development, we design and build scalable, high-performance applications that shape the future of technology.
+      
+      We believe in collaboration, creativity, and continuous learning, ensuring that every project we take on is not just a task but a step toward technological excellence.
+      
+      🚀 Empowering businesses, securing data, and transforming ideas into reality – that’s our mission!Our mission is to empower innovation through collaboration, embrace diversity in skillsets, and solve real-world challenges with modern technology.</p>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required><br><br>
+      <input type="email" placeholder="Your Email" required><br><br>
+      <textarea placeholder="Your Message" required></textarea><br><br>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Blue Back Team </p>
+    <div class="social-icons">
+      <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/dhiraj.bhavsar9897"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/dhiraj-bhavsar-707548205"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+  
+
+</body>
+</html>
